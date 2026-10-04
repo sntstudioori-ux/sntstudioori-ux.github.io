@@ -1,1 +1,2 @@
-# sntstudioori-ux.github.io
+コピペして使ってもええよ。
+大したコードはないけど。
