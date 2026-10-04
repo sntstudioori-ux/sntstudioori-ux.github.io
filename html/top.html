@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SNT Studio</title>
+	<style>
+		body {
+			background-color: #000;
+			color: #c4d1e4;
+		}
+
+		a {
+			color: #9edbff;
+		}
+
+		a:visited {
+			color: #b9a9e8;
+		}
+
+		a:hover {
+			color: #fff0b8;
+		}
+
+		header {
+			color: #e5c878;
+		}
+
+		nav {
+			background-color: rgba(9, 12, 30, .78);
+		}
+	</style>
+
+
+	<script>
+		Img = new Array(26);
+		for (i = 0; i < 5; i++) {
+			Img[i * 2] = new Image();
+			Img[i * 2].src = "img/bt_" + i + ".png";
+			Img[i * 2 + 1] = new Image();
+			Img[i * 2 + 1].src = "img/bt_" + i + "b.png";
+		}
+
+		function ImgOn(m, ind2) {
+			if (document.images)
+				m.src = Img[ind2 * 2 + 1].src;
+		}
+
+		function ImgOff(m, ind2) {
+			if (document.images)
+				m.src = Img[ind2 * 2].src;
+		}
+	</script>
+</head>
+
+<body bgcolor="#000000" text="#d1e4f8" link="#c1bbff" vlink="#807cc4" alink="#807ce1" style="background-image:url(img/hplogo2.png);
+             background-repeat:no-repeat">
+	<main>
+		<table border="0" bordercolor="#003333" bordercolorlight="#004030" bordercolordark="#204020" width="1000"
+			height="1095">
+			<COL span="1" valign="bottom">
+			<TR valign="bottom" align="left">
+				<TD valign="bottom" height="800" width="410"></TD>
+				<TD valign="bottom" height=800">
+					<header>
+
+						<FONT color="#d1e4f8">ようこそ</FONT>
+					</header>
+					<SUB>
+						<FONT color="#b994cb" size="2" style="font:12px/13px">「SNT
+							Studio」は、弾幕シューティングゲームや音楽を制作している二人組のサークルです。
+							<br>
+							<br>
+							<FONT size="3" color="#d1e4f8" style="font:15px/16px"><b>&lt;ニュース&gt;</b>
+							</FONT><BR>
+							特に何もありません。<BR>
+						</FONT>
+					</SUB><br>
+					<nav aria-label="コンテンツ">
+						<FONT size="3" color="#d1e4f8">
+							<b>&lt;更新&gt;</b>
+						</FONT><BR>
+						<FONT color="#b994cb" size="2" style="font:12px/13px">2026年10月3日　サイトを作成。（<a
+								href="top.html">サイト</a>）<br>
+
+						</FONT>
+						<FONT color=" #848484" size="3">最終更新ー2026年10月3日</FONT>
+
+						<br>
+						<br>
+						<FONT size="3" color="#d1e4f8">
+							<b>&lt;コンテンツ&gt;</b>
+						</FONT>
+						<br>
+						<font size="2" style="font:12px/13px">
+
+							<a href="news.html">
+								<img src="img/bt_0.png" height="32" width="256" border="0" hspace="0" vspace="0"
+									onMouseOver=ImgOn(this,0) onMouseOut=ImgOff(this,0)></a>
+							活動履歴のとか<br>
+
+							<a href="game.html">
+								<img src="img/bt_1.png" height="32" width="256" border="0" hspace="0" vspace="0"
+									onMouseOver=ImgOn(this,1) onMouseOut=ImgOff(this,1)></a>
+							作ったゲームとか<br>
+
+							<a href="music.html">
+								<img src="img/bt_2.png" height="32" width="256" border="0" hspace="0" vspace="0"
+									onMouseOver=ImgOn(this,2) onMouseOut=ImgOff(this,2)></a>
+							作った曲とか<br>
+
+							<a href="support.html">
+								<img src="img/bt_3.png" height="32" width="256" border="0" hspace="0" vspace="0"
+									onMouseOver=ImgOn(this,3) onMouseOut=ImgOff(this,3)></a>
+							サポート<br>
+
+							<a href="IamI.html">
+								<img src="img/bt_4.png" height="32" width="256" border="0" hspace="0" vspace="0"
+									onMouseOver=ImgOn(this,4) onMouseOut=ImgOff(this,4)></a>
+							自己紹介とか<br>
+
+						</font>
+					</nav>
+				</TD>
+			</TR>
+			<TR>
+				<TD colspan="2" width="824" valign="bottom" height="329" align="center"><BR>
+					<BR>
+					<FONT size="-1">
+						当ページは、現代的な解像度、最近のブラウザ(Chrome,Edge,Firefrox,safari等)で見ることを想定しています。リンクはご自由にお願いいたします。<br>
+						<BR>
+						<br>
+						リンク及びブックマークは <A href="https://sntstudioori-ux.github.io/">https://sntstudioori-ux.github.io/</A>
+						にお願いします
+					</FONT><br>
+					<BR>
+					同人サークル　SNT Studio　<A href="mailto:sntstudio.ori@gmail.com">sntstudio.ori@gmail.com</A>
+					<BR>
+					同人サークル　SNT Studio　代表1　SR　<A href="mailto:sr.ori.jp@gmail.com">sr.ori.jp@gmail.com</A>
+					<br clear="all">
+
+					<SCRIPT Language="JavaScript">
+						document.write("<img src=\"./cgi-bin/logx2/get_log.cgi?" + document.location + "<>" + document.referrer + "\" width=\"1\" height=\"1\">")
+					</SCRIPT>
+					<NOSCRIPT>
+						<IMG src="cgi-bin/logx2/get_log.cgi.cgi?" width="1" height="1">
+					</NOSCRIPT>
+
+
+				</TD>
+			</TR>
+		</table>
+	</main>
+</body>
+
+</html>
